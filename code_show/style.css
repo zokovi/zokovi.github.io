@@ -1,5 +1,8 @@
 body {
     background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .code {
@@ -7,10 +10,12 @@ body {
     outline: 0.15rem solid aliceblue;
     border-radius: 1rem;
     padding: 1rem;
-    height: 480px;
-    width: 720px;
+    /* height: 480px;
+    width: 720px; */
+    height: 75vh;
+    width: 75vw;
     padding: 0 0;
-    --header-height: 10%;
+    --header-height: 2.5rem;
 }
 
 .header {
@@ -54,13 +59,14 @@ body {
     display: flex;
     width: 100%;
     height: calc(100% - var(--header-height));
-    --sidebar-width: 20%;
+    --sidebar-width: 10rem;
 }
 
 .main .sidebar {
     background-color: #1a003c;
     height: 100%;
     width: var(--sidebar-width);
+    border-right: 0.15rem solid #492e6c;
 }
 
 .main .content {
@@ -68,3 +74,5 @@ body {
     height: 100%;
     width: calc(100% - var(--sidebar-width));
 }
+
+
