@@ -66,13 +66,110 @@ body {
     background-color: #1a003c;
     height: 100%;
     width: var(--sidebar-width);
+    box-sizing: border-box;
     border-right: 0.15rem solid #492e6c;
+    color: #ffffff;
+    padding-top: 1.25rem;
+}
+
+.main .sidebar .sidebar-item {
+    margin: 0.5rem 1rem 0.5rem 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 0.65rem;
+    letter-spacing: 0.05rem;
+    text-transform: uppercase;
+    min-width: 28px;
+
+    opacity: 0.4;
+    transition: 300ms ease-in-out opacity;
+    cursor: pointer;
+    overflow: hidden;
+
+    display: flex;
+    max-height: 28px;
+    align-items: center;
+}
+
+.main .sidebar .sidebar-item.active {
+    opacity: 1;
+}
+
+.main .sidebar .sidebar-item:hover {
+    opacity: 1;
+}
+
+.main .sidebar .sidebar-item svg {
+    min-width: 28px;
+    margin: 0 0;
+}
+
+.main .sidebar .sidebar-item .icon {
+    min-width: 28px;
+    min-height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main .sidebar .sidebar-item i {
+    font-size: 20px;
+    margin: 0 0;
+}
+
+.main .sidebar .sidebar-item span {
+    min-width: 28px;
+    margin: 0 0rem 0 0.75rem;
 }
 
 .main .content {
     background-color: #14002d;
     height: 100%;
     width: calc(100% - var(--sidebar-width));
+    display: flex;
+    align-items: flex-start;
+    /* color: #ffffff; */
+    margin-left: 1rem;
+    overflow: scroll;
 }
 
+pre {
+    margin-top: 0;
+}
 
+/* hljs custom color */
+.hljs {
+    background-color: transparent;
+    color: #ffffff;
+}
+
+.hljs-keyword {
+    color: #51e1d9;
+}
+
+.hljs-string {
+    color: #bd93f9;
+}
+
+.hljs-number {
+    color: #bd93f9;
+}
+
+.hljs-title {
+    color: #FFE27D;
+}
+
+.hljs-variable {
+    color: #FFE27D;
+}
+
+.hljs-symbol {
+    color: #FF5CAA;
+}
+
+td.hljs-ln-numbers {
+    color: #ffffff;
+    opacity: 0.4;
+    padding-right: 1rem;
+    text-align: right;
+}
