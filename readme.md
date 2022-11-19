@@ -9,4 +9,4 @@
 
 #### List of projects
 * ### [code_viewer](https://zokovi.github.io/code_show/index.html)
-* ### [hangman_react](https://zokovi.github.io/hangman_react/index.html)   ([source code](https://github.com/zokovi/hangman-react))
+* ### [hangman_react](https://zokovi.github.io/hangman-react/index.html)   ([source code](https://github.com/zokovi/hangman-react))
