@@ -8,4 +8,5 @@
 
 
 #### List of projects
-* #### [code_viewer](https://zokovi.github.io/code_show/index.html)
+* ### [code_viewer](https://zokovi.github.io/code_show/index.html)
+* ### [hangman_react](https://zokovi.github.io/hangman_react/index.html)   ([source code](https://github.com/zokovi/hangman-react))
